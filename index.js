@@ -23,7 +23,7 @@ let nowServing = currentLine => {
     } else {
       for (let i = 0; i < katzDeliLine.length; i++) {
         empty[i] = ` ${[i + 1]}. ${katzDeliLine[i]}`
-  
+
   }}
   return `The line is currently:${empty}`
   }
