@@ -2,5 +2,5 @@ var katzDeliLine = [];
 
 
 function takeANumber() {
-  
+
 }
