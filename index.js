@@ -1,3 +1,3 @@
 function takeANumber(currentLine, personName) {
-for(let i = 0; i < gifts.length; i++)
+for(let i = 0; i < katzDeliLine.length; i++)
 }
