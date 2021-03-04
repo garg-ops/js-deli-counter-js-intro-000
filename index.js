@@ -14,3 +14,16 @@ let nowServing = currentLine => {
   else {
      return `Currently serving ${currentLine.shift()}.`
   }}
+
+
+  let currentLine = katzDeliLine => {
+    var empty = []
+    if (katzDeliLine.length === 0) {
+      return "The line is currently empty.";
+    } else {
+      for (let i = 0; i < katzDeliLine.length; i++) {
+        empty[i] = ` ${[i + 1]}. ${katzDeliLine[i]}`
+  
+  }}
+  return `The line is currently:${empty}`
+  }
