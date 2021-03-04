@@ -1,1 +1,6 @@
 var katzDeliLine = [];
+
+
+function takeANumber() {
+  
+}
